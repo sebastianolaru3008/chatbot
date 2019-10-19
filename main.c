@@ -128,14 +128,5 @@ int main() {
 
     scanf("%s",dummy);
 
-
-
-
-
-
-
-
-
-
     return 0;
 }
