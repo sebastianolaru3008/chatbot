@@ -106,12 +106,12 @@ int main() {
                 printf("I am close.. Now I see... Is an \"i\" the last letter in your sign? [y/n]\n");
                 fflush(stdin);
                 scanf("%c",&answer);
-                if(answer='y')// there is /A,E,LV,I
+                if(answer=='y')// there is /A,E,LV,I
                 {
                     printf("I almost got it... I see a consonant... is a \"n\" in your sign? [y/n]\n");
                     fflush(stdin);
                     scanf("%c",&answer);
-                    if(answer='y')// there is /A,E,LV,I,N
+                    if(answer=='y')// there is /A,E,LV,I,N
                         printf("Of course! \"Gemeni\" is spelled with an \"n\" and no \"a\". :)\n");
                     else if(answer=='n')// there is /A,E,LV,I,/N
                         printf("Of course! Because there is no \"n\" in \"Pesti\". :)\n");
